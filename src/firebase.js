@@ -4,7 +4,7 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCjrenMR0twQBySsn6pxLp7rTVNfTpRDLM",
+    apiKey: "",
     authDomain: "slack-clone-dbfc0.firebaseapp.com",
     projectId: "slack-clone-dbfc0",
     storageBucket: "slack-clone-dbfc0.appspot.com",
