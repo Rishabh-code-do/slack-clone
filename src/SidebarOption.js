@@ -12,7 +12,7 @@ function SidebarOption({Icon,title,id,addChannelOption}) {
         navigate(`/room/${id}`)
     }
     else{
-        navigate(title)
+        navigate(`/title/${title}`)
     }
   }
 

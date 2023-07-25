@@ -1,9 +1,17 @@
 body{
   --slack-color:#3f0f40;
-  overflow: hidden;
+  overflow-y: hidden;
+  background-color: #421f445a;
 }
 
 .app__body{
   display: flex;
   height: 100vh;
+}
+
+.app__welcome{
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
 }

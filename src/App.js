@@ -20,7 +20,10 @@ function App() {
           <Sidebar/>
           <Routes>
             <Route path="/room/:roomId" element={<Chat/>} />
-            <Route path="/" element={<h1>Welcome</h1>} />
+            <Route path="/title/:title" element={<h1 className='app__welcome'>Create New +</h1>}/>
+            <Route path="/" element={<div className='app__welcome'>
+              <h1>Welcome To Slack</h1>
+              </div>} />
           </Routes>
         </div>
         </>)}

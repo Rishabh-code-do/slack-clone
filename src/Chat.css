@@ -3,6 +3,7 @@
     flex-grow: 1;
     overflow-y: scroll;
     padding-bottom: 150px;
+    background-color: white;
 }
 
 .chat__header{
@@ -11,6 +12,7 @@
     justify-content: space-between;
     padding: 20px;
     border-bottom: 1px solid lightgray;
+    overflow-y: scroll;
 }
 
 .chat__channelName{
