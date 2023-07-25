@@ -26,14 +26,6 @@ function Chat() {
     )
   },[roomId]);
 
-//   useEffect(()=>{
-//     const div = divUnderMessages?.current;
-//     if (div) {
-//       div.scrollIntoView({behavior:'smooth', block:'end'});
-//       console.log("kl")
-//     }
-//     console.log("k");
-//   },[roomMessages])
 
   console.log(roomDetails);
   console.log(roomMessages);
